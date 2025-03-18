@@ -1,5 +1,5 @@
 resource "null_resource" "test" {
-  rtiggers = {
+  triggers = {
     xyz = timestamp()
   }
   provisioner "local-exec" {
